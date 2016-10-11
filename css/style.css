@@ -1,0 +1,368 @@
+/*GENERAL*/
+
+/*.row {
+	padding-top: 20px;
+}*/
+
+#bottom {
+	padding-bottom: 50px;
+}
+
+a:hover {
+	color:#FA6CEA;
+	text-decoration: none;
+}
+
+body{ 
+background: linear-gradient(to bottom, #FA6CEA, #219387);
+}
+
+#container {
+	width:85%;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Cabin Sketch', cursive;
+	color:#fff;
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: 'Share Tech Mono', monospace;
+	color: #fff;
+	letter-spacing: .12em;
+}
+
+h4 {
+	font-size: 16px;
+	font-family: 'Share Tech Mono', monospace;
+	color: #fff;
+	letter-spacing: .12em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*div {
+	border: 1px black solid;
+}*/
+
+ h1.logo { 
+   font-family: 'MegrimMedium'; 
+   font-weight: 800; 
+   font-style: normal; 
+   color: #fff;
+   margin-top: 50px;
+}
+
+ h1.logo a{ 
+   color: #fff;
+}
+
+
+
+/*NAV*/
+
+#contact img {
+	padding:10px;
+	width:100%;
+	height:auto;
+}
+
+
+.fa-bars {
+  color: white;
+  padding-top: 20px;
+}
+
+/*VIDEO*/
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	margin-top:20px;
+	box-shadow: 7px 7px black;
+	outline: 2px solid black;
+}
+
+/*.video img {
+	width: 100%;
+	height: auto;
+	box-shadow: 10px 10px black;
+	outline: 2px solid black;
+}*/
+
+.video-subtitle h3 {
+	padding: 0 0 0 12px;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*TITLES*/
+
+.cat-head img {
+	max-width: 100%;
+}
+
+.cat-head {
+/*	padding-top: 40px;*/
+	padding-left: 20px;
+}
+
+.title {
+	/*padding-top:30px;*/
+}
+
+
+.title h2{
+	text-align: center;
+/*	padding-top:50px;*/
+}
+
+/*.col-xs-4 h2{
+	font-size: 2em;
+}*/
+
+/*.col-xs-4 .title h2 {
+	padding-top:0px;
+}
+*/
+
+/*ADOPT*/
+
+
+#find h4{
+	padding-top: 10px;
+	float: left;
+}
+
+#search {
+	background-color: black;
+	border-style: none;
+	color: #fff;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#zip {
+	border: 2px black solid;
+	height:50px;
+	width: 80%;
+	padding-left: 20px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 22px;
+	color: black;
+}
+
+#adopt-form {
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+
+#adopt-form h3 {
+padding-left: 20px;
+line-height: 5px;
+}
+
+input[type=submit] {
+	display: none;
+}
+
+
+/*.col-xs-12 #adopt-form h3 {
+   
+    line-height: 25px;
+    padding-left: 0px;
+}*/
+
+
+/*PRODUCTS*/
+
+.products {
+	padding-top: 30px;
+}
+
+.prod-img img {
+	width: 95%;
+	height: auto;
+	box-shadow: 7px 7px black;
+	outline: 2px solid black;
+}
+
+.prod-name {
+	padding-top: 15px;
+	padding-left: 3px;
+}
+
+.prod-name a {
+	font-size: 16px;
+	font-family: 'Share Tech Mono', monospace;
+	color: #fff;
+	letter-spacing: .12em;
+}
+
+/*.col-xs-6 .prod-name {
+    padding-bottom: 20px;
+}
+*/
+.news {
+	padding-bottom: 40px;
+}
+
+
+/*INSTAGRAM*/
+
+/*.instashow-gallery-media-square .instashow-gallery-media-image img {
+    width: 95%!important;
+    height: 95%!important;
+}
+*/
+/*.instashow img {
+	padding-right: 15px;
+    padding-left: 15px;
+}*/
+
+
+
+.instashow-gallery-media-square .instashow-gallery-media-image {
+
+width: 95%!important;
+    height: 95%!important;
+    border: 2px black solid;
+    box-shadow: 7px 7px black;
+}
+
+
+.instashow-gallery-control-arrow .instashow-gallery-control-arrow-next {
+width:300px;
+border: 2px solid black;
+}
+
+
+.row .insta {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.insta img {
+	 vertical-align: middle;
+    width: 95%;
+    margin-top: 45px;
+    padding-top: 0px !important;
+    outline: 2px black solid;
+    box-shadow: 7px 7px black;
+}
+
+
+.col-md-12 #instafeed {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.kittez {
+	font-family: 'Share Tech Mono', monospace;
+	border: 2px black solid;
+    box-shadow: 7px 7px black;
+    background: white;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    display: block;
+    margin:50px 30px 50px 30px;
+    text-align: center;
+}
+
+
+
+/*ADOPT*/
+
+.cat {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  border: 1px solid black;
+  height: 250px;
+  overflow:hidden;
+}
+
+.cat img {
+  width: 100%;
+}
+
+
+
+
+/*CONTACT*/
+
+
+#contact button  {
+	background: transparent;
+	border: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background: #219387;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: none;
+    border-radius: 0;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    opacity: 100;
+}
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-control {
+	font-family: 'Share Tech Mono', monospace;
+	border: 1px solid #000;
+	border-radius: 0;
+}
+
+.btn {
+	border-radius: 0;
+	border: 2px solid #000;
+	background:white;
+	color: black;
+	font-family: 'Press Start 2P', cursive;
+	box-shadow: 7px 7px black;
